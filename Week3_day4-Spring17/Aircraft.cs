@@ -20,5 +20,12 @@ namespace Week3_day4_Spring17
             altitude = 0.0d;
         }
 
+        public override void Move()
+        {
+            altitude += 10000.0d;
+            base.Move();
+        }
+
+
     }
 }
