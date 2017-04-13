@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week3_day4_Spring17
 {
-    class Vehicle
+    public abstract class Vehicle
     {
         //fields
         protected int seats;
@@ -60,6 +60,11 @@ namespace Week3_day4_Spring17
         {
             //shorthand for the following distanceTraveled = distanceTraveled + movementSpeed;
             distanceTraveled += movementSpeed;
+        }
+
+        public virtual string GetDistanceTraveled()
+        {
+            return "Distance Traveled: " + distanceTraveled + "\n";
         }
 
     }
