@@ -25,6 +25,11 @@ namespace Week3_day4_Spring17
             boat1.Move();
             boat1.Move();
             Console.WriteLine("Boat Distance Traveled: " + boat1.DistanceTraveled + "\n");
+
+            Aircraft aircraft1 = new Aircraft(70, 100000, "Grey", 600);
+            aircraft1.Move();
+            aircraft1.Move();
+            Console.WriteLine("Aircraft Distance Traveled: " + aircraft1.DistanceTraveled + "\n");
         }
     }
 }

@@ -25,7 +25,5 @@ namespace Week3_day4_Spring17
             altitude += 10000.0d;
             base.Move();
         }
-
-
     }
 }
