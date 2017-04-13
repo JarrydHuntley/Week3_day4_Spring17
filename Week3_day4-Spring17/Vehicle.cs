@@ -8,6 +8,7 @@ namespace Week3_day4_Spring17
 {
     class Vehicle
     {
+        //fields
         private int seats;
         private int carryingCapacity;
         private string color;
@@ -15,6 +16,7 @@ namespace Week3_day4_Spring17
         private float gearRatio;
         private float engineSize;
 
+        //properties
         public int Seats
         {
             get { return this.seats; }
@@ -30,5 +32,13 @@ namespace Week3_day4_Spring17
             get { return this.color; }
         }
 
+        //constructors
+        public Vehicle(int seats, int carryingCapacity, string color, double movementSpeed)
+        {
+            this.seats = seats;
+            this.carryingCapacity = carryingCapacity;
+            this.color = color;
+            this.movementSpeed = movementSpeed;
+        }
     }
 }
