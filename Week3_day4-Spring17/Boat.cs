@@ -18,5 +18,10 @@ namespace Week3_day4_Spring17
             this.movementSpeed = movementSpeed;
             this.waterDrag = waterDrag;
         }
+
+        public override void Move()
+        {
+            distanceTraveled += movementSpeed * waterDrag;
+        }
     }
 }

@@ -13,10 +13,11 @@ namespace Week3_day4_Spring17
         protected int carryingCapacity;
         protected string color;
         protected double movementSpeed;
+        protected double distanceTraveled;
 
         private float gearRatio;
         private float engineSize;
-        private double distanceTraveled;
+
 
         //properties
         public int Seats
