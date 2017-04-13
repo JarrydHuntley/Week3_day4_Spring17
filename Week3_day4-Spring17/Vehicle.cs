@@ -55,7 +55,7 @@ namespace Week3_day4_Spring17
             distanceTraveled = 0.0d;
         }
 
-        public void Move()
+        public virtual void Move()
         {
             //shorthand for the following distanceTraveled = distanceTraveled + movementSpeed;
             distanceTraveled += movementSpeed;
