@@ -15,6 +15,7 @@ namespace Week3_day4_Spring17
         private double movementSpeed;
         private float gearRatio;
         private float engineSize;
+        private double distanceTraveled;
 
         //properties
         public int Seats
@@ -40,5 +41,12 @@ namespace Week3_day4_Spring17
             this.color = color;
             this.movementSpeed = movementSpeed;
         }
+
+        public void Move()
+        {
+            //shorthand for the following distanceTraveled = distanceTraveled + movementSpeed;
+            distanceTraveled += movementSpeed;
+        }
+
     }
 }
