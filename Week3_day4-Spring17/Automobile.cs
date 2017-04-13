@@ -28,6 +28,6 @@ namespace Week3_day4_Spring17
             this.movementSpeed = movementSpeed;
         }
 
-
+        //We don't need to override Move() because the one from the parent class works
     }
 }

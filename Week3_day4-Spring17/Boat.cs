@@ -19,6 +19,7 @@ namespace Week3_day4_Spring17
             this.waterDrag = waterDrag;
         }
 
+        //the version from the parent class doesn't work for us so we overrode it and removed the base.Move()
         public override void Move()
         {
             distanceTraveled += movementSpeed * waterDrag;
