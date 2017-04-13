@@ -13,6 +13,7 @@ namespace Week3_day4_Spring17
         private int carryingCapacity;
         private string color;
         private double movementSpeed;
+
         private float gearRatio;
         private float engineSize;
         private double distanceTraveled;
@@ -33,6 +34,11 @@ namespace Week3_day4_Spring17
             get { return this.color; }
         }
 
+        public double DistanceTraveled
+        {
+            get { return this.distanceTraveled; }
+        }
+
         //constructors
         public Vehicle(int seats, int carryingCapacity, string color, double movementSpeed)
         {
@@ -40,6 +46,8 @@ namespace Week3_day4_Spring17
             this.carryingCapacity = carryingCapacity;
             this.color = color;
             this.movementSpeed = movementSpeed;
+
+            distanceTraveled = 0.0d;
         }
 
         public void Move()
