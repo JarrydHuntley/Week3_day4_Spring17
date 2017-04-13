@@ -9,10 +9,10 @@ namespace Week3_day4_Spring17
     class Vehicle
     {
         //fields
-        private int seats;
-        private int carryingCapacity;
-        private string color;
-        private double movementSpeed;
+        protected int seats;
+        protected int carryingCapacity;
+        protected string color;
+        protected double movementSpeed;
 
         private float gearRatio;
         private float engineSize;
@@ -40,6 +40,11 @@ namespace Week3_day4_Spring17
         }
 
         //constructors
+        public Vehicle()
+        {
+ 
+        }
+
         public Vehicle(int seats, int carryingCapacity, string color, double movementSpeed)
         {
             this.seats = seats;
