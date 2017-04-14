@@ -33,6 +33,7 @@ namespace Week3_day4_Spring17
         public string Color
         {
             get { return this.color; }
+            set { this.color = value; }
         }
 
         public double DistanceTraveled
@@ -67,5 +68,6 @@ namespace Week3_day4_Spring17
             return "Distance Traveled: " + distanceTraveled + "\n";
         }
 
+        //public abstract double mileage(); 
     }
 }

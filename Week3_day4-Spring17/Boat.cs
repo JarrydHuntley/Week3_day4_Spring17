@@ -24,5 +24,6 @@ namespace Week3_day4_Spring17
         {
             distanceTraveled += movementSpeed * waterDrag;
         }
+
     }
 }
